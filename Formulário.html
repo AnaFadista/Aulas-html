@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form action="Servidor.php" method="post">
+
+    <label for="name">Nome:</label>
+    <input type="text" name="caixaName" id="name" placeholder="campo obrigatório" required>
+
+ <br> <br> 
+
+    <label for="idade">Data de Nasc.:</label>
+    <input type="date" name="caixaIdade" id="idade" required>
+
+ <br> <br>
+
+    <label for="email">E-mail</label>
+    <input type="email" name="caixaEmail" id="email" placeholder="campo obrigatório" required>
+
+ <br> <br>
+
+    <label for="pass">Password</label>
+    <input type="password" name="caixaPass" id="pass" placeholder="campo obrigatório" required>
+
+ <br> <br>
+
+     <fieldset>    
+
+     <legend>Género</legend>
+
+     <input type="radio" name="genero" id="fem">
+     <label for="fem">Feminino</label> <br>
+
+     <input type="radio" name="genero" id="masc">
+     <label for="masc">Masculino</label> <br>
+
+     <input type="radio" name="genero" id="genero">
+     <label for="indef">Indefinido</label>
+
+     </fieldset>
+
+ <br> <br>
+
+    <fieldset>
+
+        <legend>Quais países gostarias de visitar</legend>
+
+        <input type="checkbox" id="br">
+        <label for="br">Brasil</label> <br>
+
+        <input type="checkbox" id="pt">
+        <label for="pt">Portugal</label><br>
+
+        <input type="checkbox" id="ch">
+        <label for="ch">Suíça</label>
+
+    </fieldset>
+
+
+    
+ <br>
+       <input type="submit">
+ <br> <br>
+       <input type="reset">
+
+</form>
+
+</body>
+</html>
